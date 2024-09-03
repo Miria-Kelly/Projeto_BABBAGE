@@ -1,6 +1,7 @@
 import armazen, impressora
 valores = []
 valor = 0
+resultado = 1
 def decifrar(codigo, posicao, numero):
     global resultado
     if codigo == "0001":

@@ -1,5 +1,5 @@
 def ler_cartao(cartao_entrada):
-    with open(cartao_entrada, 'r') as cartao:
+    with open(cartao_entrada, 'r', encoding='utf-8') as cartao:
         linhas = cartao.read()
 
         for c in linhas:
